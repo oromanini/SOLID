@@ -32,3 +32,7 @@
 ### Vamos criar interfaces mais específicas para evitar que as classes implementem métodos desnecessários. Criaremos interfaces ProcessamentoPagamento e OperacoesPagamento
 
 ### --------------------------------------
+
+## Sem o D (Antes da implementação do SOLID):
+### Vamos considerar uma classe Cliente que depende diretamente de uma implementação concreta de uma classe de envio de e-mails
+
