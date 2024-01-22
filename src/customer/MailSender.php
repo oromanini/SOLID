@@ -2,9 +2,9 @@
 
 namespace Curso\Solid\customer;
 
-class MailSender
+class MailSender implements Sender
 {
-    public function sendMail(string $message): string
+    public function send(string $message): string
     {
         return $message;
     }
