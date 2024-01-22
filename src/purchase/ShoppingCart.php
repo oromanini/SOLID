@@ -2,11 +2,13 @@
 
 namespace Curso\Solid\purchase;
 
+use Curso\Solid\discount\CalculableDiscount;
+
 class ShoppingCart
 {
     private array $items = [];
 
-    public function addProduct(Product $product): void
+    public function addProduct(CalculableDiscount $product): void
     {
         $this->items[] = $product;
     }
