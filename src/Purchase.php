@@ -5,6 +5,11 @@ namespace Curso\Solid;
 class Purchase {
     private array $items = [];
 
+    public function items(): array
+    {
+        return $this->items;
+    }
+
     public function addItem(PurchaseItem $item): void
     {
         $this->items[] = $item;
@@ -17,13 +22,5 @@ class Purchase {
             $total += $item->value();
         }
         return $total;
-    }
-
-    public function showDetails(): array
-    {
-        return [
-            'items' => $this->items,
-            'total' => $this->calculateTotal()
-        ];
     }
 }
