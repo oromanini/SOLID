@@ -2,9 +2,9 @@
 
 namespace Curso\Solid\Tests;
 
-use Curso\Solid\Purchase;
-use Curso\Solid\PurchaseDetail;
-use Curso\Solid\PurchaseItem;
+use Curso\Solid\purchase\Purchase;
+use Curso\Solid\purchase\PurchaseDetail;
+use Curso\Solid\purchase\PurchaseItem;
 use PHPUnit\Framework\TestCase;
 
 class PurchaseTest extends TestCase

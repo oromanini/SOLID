@@ -1,6 +1,6 @@
 <?php
 
-namespace Curso\Solid;
+namespace Curso\Solid\purchase;
 
 class Purchase {
     private array $items = [];
