@@ -1,6 +1,6 @@
 <?php
 
-namespace Curso\Solid;
+namespace Curso\Solid\Purchase;
 
 class PurchaseDetail
 {
