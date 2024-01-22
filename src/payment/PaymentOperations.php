@@ -2,9 +2,8 @@
 
 namespace Curso\Solid\payment;
 
-interface Payment
+interface PaymentOperations
 {
-    public function processPayment(): void;
     public function confirmPayment(): void;
     public function cancelPayment(): void;
 }

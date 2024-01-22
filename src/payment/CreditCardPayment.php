@@ -2,7 +2,7 @@
 
 namespace Curso\Solid\payment;
 
-class CreditCardPayment implements Payment
+class CreditCardPayment implements PaymentProcess, PaymentOperations
 {
 
     #[\Override] public function processPayment(): void
