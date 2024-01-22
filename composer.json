@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Curso\\Solid\\": "src/",
+      "Curso\\Solid\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "require": {
+    "ext-zip": "*"
+  }
+}
